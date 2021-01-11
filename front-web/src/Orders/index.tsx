@@ -1,3 +1,4 @@
+import './styles.css';
 import { useEffect, useState } from 'react';
 import { toast } from 'react-toastify';
 import { fetchProducts, saveOrder } from '../api';
@@ -8,7 +9,7 @@ import OrderSummary from './OrderSummary';
 import ProductsList from './ProductsList';
 import StepesHeader from './StepsHeader';
 import { OrderLocationData, Product } from './types';
-import './styles.css';
+
 
 
 function Orders() {
